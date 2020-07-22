@@ -5,42 +5,36 @@
 # Configure the English version of the site.
 [en]
   languageCode = "en-us"
-   contentDir = "content/english"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+#   contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
 
 # Uncomment the lines below to configure your website in a second language.
 [pt]
-  languageCode = "pt"
-  contentDir = "content/portugues"
-  title = "Douglas Vinícius"
+  languageCode = "pt-bz"
+  contentDir = "content/pt"
+  title = "Chinese website title..."
   [pt.params]
-    description = "Descrição do site em português"
-  
+    description = "Site descrito em português-brasil..."
   [[pt.menu.main]]
     name = "Página Inicial"
     url = "#about"
     weight = 10
-  
-  [[pt.menu.main]]
-    name = "Posts"
-    url = "#posts"
-    weight = 20
-  
+
   [[pt.menu.main]]
     name = "Projetos"
     url = "#projects"
+    weight = 20
+
+  [[pt.menu.main]]
+    name = "Palestras & Workshops"
+    url = "#talks"
     weight = 30
-    
+
   [[pt.menu.main]]
     name = "Publicações"
     url = "#publications"
     weight = 40
-  
+
   [[pt.menu.main]]
-    name = "Contato"
-    url = "#contact"
-    weight = 50
-  
-  [[pt.menu.main]] 
     name = "CV"
     url = ""
-    weight = 60
+    weight = 50

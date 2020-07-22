@@ -13,9 +13,11 @@ slides:
   highlight_style: dracula
 ---
 
-# Create slides in Markdown with Academic
+# Manipulação de Data Frames com o Pacote dplyr
 
-[Academic](https://sourcethemes.com/academic/) | [Documentation](https://sourcethemes.com/academic/docs/managing-content/#create-slides)
+[Academic](https://sourcethemes.com/academic/)
+
+![dplyr](featured.png)
 
 ---
 
@@ -161,6 +163,6 @@ Create `assets/css/reveal_custom.css` with:
 
 # Questions?
 
-[Ask](https://spectrum.chat/academic)
+[Ask](https://discourse.gohugo.io)
 
-[Documentation](https://sourcethemes.com/academic/docs/managing-content/#create-slides)
+[Documentation](https://sourcethemes.com/academic/docs/)
