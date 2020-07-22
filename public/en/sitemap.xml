@@ -95,6 +95,16 @@
   <url>
     <loc>/publication-type/4/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/publication-type/4/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication-type/4/"
+                />
   </url>
   
   <url>
@@ -130,16 +140,46 @@
   <url>
     <loc>/tag/number-theory/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/tag/number-theory/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tag/number-theory/"
+                />
   </url>
   
   <url>
     <loc>/tag/prime/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/tag/prime/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tag/prime/"
+                />
   </url>
   
   <url>
     <loc>/publication/prime/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/publication/prime/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/prime/"
+                />
   </url>
   
   <url>
@@ -205,11 +245,31 @@
   <url>
     <loc>/tag/cox/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/tag/cox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tag/cox/"
+                />
   </url>
   
   <url>
     <loc>/publication/cox/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/publication/cox/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/cox/"
+                />
   </url>
   
   <url>
@@ -230,11 +290,31 @@
   <url>
     <loc>/tag/survival/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/tag/survival/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tag/survival/"
+                />
   </url>
   
   <url>
     <loc>/publication/survival/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/publication/survival/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication/survival/"
+                />
   </url>
   
   <url>
@@ -255,6 +335,16 @@
   <url>
     <loc>/project/number-theory/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/project/number-theory/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/project/number-theory/"
+                />
   </url>
   
   <url>
@@ -275,11 +365,31 @@
   <url>
     <loc>/tag/r/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/tag/r/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tag/r/"
+                />
   </url>
   
   <url>
     <loc>/project/regression-project/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/project/regression-project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/project/regression-project/"
+                />
   </url>
   
   <url>
@@ -539,6 +649,16 @@
   
   <url>
     <loc>/project/survival-analysis/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/project/survival-analysis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/project/survival-analysis/"
+                />
   </url>
   
   <url>
