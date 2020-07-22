@@ -140,31 +140,11 @@
   <url>
     <loc>/pt/publication-type/3/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/publication-type/3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/publication-type/3/"
-                />
   </url>
   
   <url>
     <loc>/pt/publication/preprint/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/publication/preprint/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/publication/preprint/"
-                />
   </url>
   
   <url>
@@ -230,16 +210,6 @@
   <url>
     <loc>/pt/tag/source-themes/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/source-themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/tag/source-themes/"
-                />
   </url>
   
   <url>
@@ -305,16 +275,6 @@
   <url>
     <loc>/pt/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tag/deep-learning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/tag/deep-learning/"
-                />
   </url>
   
   <url>
@@ -335,31 +295,11 @@
   <url>
     <loc>/pt/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/project/external-project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/project/external-project/"
-                />
   </url>
   
   <url>
     <loc>/pt/project/internal-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/project/internal-project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/project/internal-project/"
-                />
   </url>
   
   <url>
@@ -485,46 +425,16 @@
   <url>
     <loc>/pt/publication-type/2/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/publication-type/2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/publication-type/2/"
-                />
   </url>
   
   <url>
     <loc>/pt/publication/journal-article/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/publication/journal-article/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/publication/journal-article/"
-                />
   </url>
   
   <url>
     <loc>/pt/author/robert-ford/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/author/robert-ford/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/author/robert-ford/"
-                />
   </url>
   
   <url>
@@ -620,16 +530,6 @@
   <url>
     <loc>/pt/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/publication/conference-paper/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/publication/conference-paper/"
-                />
   </url>
   
   <url>
