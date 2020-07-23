@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiny | Douglas Vinícius</title>
+    <link>/tags/shiny/</link>
+      <atom:link href="/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
+    <description>shiny</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Douglas Vinícius 2020</copyright><lastBuildDate>Mon, 20 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/sombrero.jpg</url>
+      <title>shiny</title>
+      <link>/tags/shiny/</link>
+    </image>
+    
+    <item>
+      <title>Survival Analysis</title>
+      <link>/project/survival/</link>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/project/survival/</guid>
+      <description>&lt;p&gt;in progess&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

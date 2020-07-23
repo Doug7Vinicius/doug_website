@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="pt-bz" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.4.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -21,22 +20,22 @@
   
   
 
-  <meta name="author" content="Douglas Vinícius">
+  
 
   
   
   
     
   
-  <meta name="description" content="Academic of Statistics">
+  <meta name="description" content="Site descrito em português-brasil...">
 
   
-  <link rel="alternate" hreflang="en-us" href="/pt/publication/">
+  <link rel="alternate" hreflang="en" href="/publication/">
+  
+  <link rel="alternate" hreflang="pt-bz" href="/pt/publication/">
 
   
 
-
-  
 
   
   
@@ -46,12 +45,15 @@
 
   
   
+
+  
+  
   
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
     
@@ -59,34 +61,189 @@
       
     
     
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/tomorrow.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/tomorrow.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
-        
+      
+
+      
+    
+      
+
+      
+      
+
       
     
 
-    
-
-    
-
-  
-
-  
-  
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lora:400,700|Roboto:400,700&display=swap">
   
 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.f9ea692fa374a1293c54a14194078902.css">
-
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono%7CLora:400,700%7CRoboto:400,700&display=swap">
   
 
   
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99209585-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-99209585-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
   
   
 
@@ -94,9 +251,9 @@
   <link rel="alternate" href="/pt/publication/index.xml" type="application/rss+xml" title="Douglas Vinícius">
   
 
-  <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon-32.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="manifest" href="/pt/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hue95950bcb6781434fc94b614d025d7a7_12723_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hue95950bcb6781434fc94b614d025d7a7_12723_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="/pt/publication/">
 
@@ -104,23 +261,27 @@
   
   
   
+  
+  
+  
     
-    
   
   
-  <meta property="twitter:card" content="summary">
-  
-  <meta property="twitter:site" content="@Douglas Vinícius">
-  <meta property="twitter:creator" content="@Douglas Vinícius">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Douglas Vinícius">
   <meta property="og:url" content="/pt/publication/">
   <meta property="og:title" content="Publications | Douglas Vinícius">
-  <meta property="og:description" content="Academic of Statistics"><meta property="og:image" content="/img/normal_1.png">
-  <meta property="twitter:image" content="/img/normal_1.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Site descrito em português-brasil..."><meta property="og:image" content="/img/sombrero.jpg">
+  <meta property="twitter:image" content="/img/sombrero.jpg"><meta property="og:locale" content="pt-bz">
   
-    <meta property="og:updated_time" content="2020-03-01T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2017-12-20T00:00:00&#43;00:00">
   
+
+  
+
+
+
 
   
 
@@ -143,7 +304,7 @@
 
       <div class="row no-gutters justify-content-between mb-3">
         <div class="col-6">
-          <h1>Search</h1>
+          <h1>Pesquisar</h1>
         </div>
         <div class="col-6 col-search-close">
           <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
@@ -152,7 +313,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Pesquisar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -169,14 +331,14 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
   <div class="container">
 
     
-      <a class="navbar-brand" href="/"><img src="/img/normal_1.png" alt="Douglas Vinícius"></a>
+      <a class="navbar-brand" href="/pt">Douglas Vinícius</a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Alterar navegação">
         <span><i class="fas fa-bars"></i></span>
       </button>
       
@@ -203,16 +365,9 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/#about"><span>Home</span></a>
+          <a class="nav-link " href="/pt/about"><span>Sobre</span></a>
         </li>
 
         
@@ -232,16 +387,9 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          <a class="nav-link " href="/pt/post"><span>Blog</span></a>
         </li>
 
         
@@ -261,16 +409,9 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/#talks"><span>Talks & Workshops</span></a>
+          <a class="nav-link " href="/pt/talks"><span>Palestras</span></a>
         </li>
 
         
@@ -290,16 +431,9 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          <a class="nav-link " href="/pt/projects"><span>Projetos</span></a>
         </li>
 
         
@@ -310,6 +444,8 @@
         
         
         
+          
+        
 
         
         
@@ -319,7 +455,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/"><span>CV</span></a>
+          <a class="nav-link " href="/pt/resume"><span>CV</span></a>
         </li>
 
         
@@ -330,7 +466,27 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            <i class="fas fa-globe" aria-hidden="true"></i>
+            <span>Português</span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/publication/">
+                <span>English</span>
+              </a>
+            </li>
+            
+          </ul>
+        </li>
         
 
         
@@ -363,7 +519,7 @@
     
   
 <div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Publications</h1>
+  <h1>Publications</h1>
 
   
 
@@ -373,40 +529,1203 @@
 
 
 <div class="universal-wrapper">
-  
+  <div class="row">
+    <div class="col-lg-12">
+
+      
+
+      
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+        
+        
+      
+
+      <div class="form-row mb-4">
+        <div class="col-auto">
+          <input type="search" class="filter-search" placeholder="Pesquisar..." autocapitalize="off"
+          autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
+        </div>
+        <div class="col-auto">
+          <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
+            <option value="*">Tipo</option>
+            
+            
+            <option value=".pubtype-2">
+              Artigo de revista
+            </option>
+            
+            <option value=".pubtype-5">
+              Livro
+            </option>
+            
+            <option value=".pubtype-6">
+              Seção de livro
+            </option>
+            
+          </select>
+        </div>
+        <div class="col-auto">
+          <select class="pub-filters form-control form-control-sm" data-filter-group="year">
+            <option value="*">Data</option>
+            
+            
+            
+            <option value=".year-2017">
+              2017
+            </option>
+            
+            <option value=".year-2016">
+              2016
+            </option>
+            
+            <option value=".year-2015">
+              2015
+            </option>
+            
+            <option value=".year-2014">
+              2014
+            </option>
+            
+            <option value=".year-2013">
+              2013
+            </option>
+            
+            <option value=".year-2011">
+              2011
+            </option>
+            
+            <option value=".year-2007">
+              2007
+            </option>
+            
+            <option value=".year-2004">
+              2004
+            </option>
+            
+            
+          </select>
+        </div>
+      </div>
+
+      <div id="container-publications">
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2017">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
-  <div>
-    <h2><a href="/pt/publication/prime/">Prime Number Theory</a></h2>
-    <div class="article-style">
-      
-      in progress...
-      
-    </div>
-  </div>
+
+  <span class="article-metadata li-cite-author">
+    
+
   
-  <div>
-    <h2><a href="/pt/publication/cox/">Cox Regression Analysis</a></h2>
-    <div class="article-style">
-      
-      in progress...
-      
-    </div>
-  </div>
+  <span>Eric Feczko</span>, <span>Nadir Balba</span>, <span>Oscar Miranda-Dominguez</span>, <span>Michaela Cordova</span>, <span>Sarah Karalunas</span>, <span>Lourdes Irwin</span>, <span>Damion Demeter</span>, <span><a href="/pt/authors/alison/">alison</a></span>, <span>Beth Hoover Langhorst</span>, <span>Julia Grieser Painter</span>, <span>Jan van Santen</span>, <span>Eric Fombonne</span>, <span>Joel Nigg</span>, <span>Damien Fair</span>
+  </span>
+  (2017).
+  <a href="/pt/publication/2017-subtyping/">Subtyping cognitive profiles in Autism Spectrum Disorder using a random forest algorithm</a>.
+  In <em>Neuroimage</em>.
   
-  <div>
-    <h2><a href="/pt/publication/survival/">Survival Analysis</a></h2>
-    <div class="article-style">
-      
-      in progress...
-      
-    </div>
-  </div>
-  
+  <p>
+
+
+
+
+
+
+
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-5 year-2017">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span>Yihui Xie</span>, <span><a href="/pt/authors/alison/">alison</a></span>, <span>Amber Thomas</span>
+  </span>
+  (2017).
+  <a href="/pt/publication/2017-blogdown/">blogdown: Creating Websites with R Markdown</a>.
+  blogdown: Creating Websites with R Markdown.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2017">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span>Heather MacFarlane</span>, <span>Kyle Gorman</span>, <span>Rosemary Ingham</span>, <span><a href="/pt/authors/alison/">alison</a></span>, <span>Katina Papadakis</span>, <span>Geza Kiss</span>, <span>Jan van Santen</span>
+  </span>
+  (2017).
+  <a href="/pt/publication/2017-mazes-asd-sli/">Quantitative Analysis of Disfluency in Children with Autism Spectrum Disorder or Language Impairment</a>.
+  In <em>PLOS ONE</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/2017-mazes-asd-sli.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://gist.github.com/kylebgorman/77ce12c9167554ade560af9d34565c11" target="_blank" rel="noopener">
+  Dados
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-6 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span><a href="/pt/authors/alison/">alison</a></span>, <span>Katharine Zuckerman</span>, <span>Eric Fombonne</span>
+  </span>
+  (2016).
+  <a href="/pt/publication/2016-primer-on-asd/">Epidemiology of autism spectrum disorders</a>.
+  In <em>Primer on Autism Spectrum Disorder</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/2016-primer-chapter-text.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2016">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span>Kyle Gorman</span>, <span>Lindsay Olson</span>, <span><a href="/pt/authors/alison/">alison</a></span>, <span>Rebecca Lunsford</span>, <span>Peter A. Heeman</span>, <span>Jan P. H. van Santen</span>
+  </span>
+  (2016).
+  <a href="/pt/publication/2016-uh-and-um-asd-sli/">Uh and Um in Children With Autism Spectrum Disorders or Language Impairment</a>.
+  In <em>Autism Research</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/2016-uh-and-um-asd-sli.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2015">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span><a href="/pt/authors/alison/">alison</a></span>, <span>Katharine E. Zuckerman</span>, <span>Eric Fombonne</span>
+  </span>
+  (2015).
+  <a href="/pt/publication/2015-obesity-in-asd-multisite/">Obesity and Autism</a>.
+  In <em>Pediatrics</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/2015-obesity-in-asd-multisite.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2015">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span><a href="/pt/authors/alison/">alison</a></span>, <span>Jan van Santen</span>, <span>Kyle Gorman</span>, <span>Beth Hoover Langhorst</span>, <span>Eric Fombonne</span>
+  </span>
+  (2015).
+  <a href="/pt/publication/2015-memory-in-li-asd/">Memory in language-impaired children with and without autism</a>.
+  In <em>Journal of Neurodevelopmental Disorders</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/2015-memory-in-li-asd.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-6 year-2015">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span><a href="/pt/authors/alison/">alison</a></span>, <span>Katharine Zuckerman</span>, <span>Eric Fombonne</span>
+  </span>
+  (2015).
+  <a href="/pt/publication/2015-translational/">Epidemiology of autism spectrum disorders</a>.
+  In <em>Translational Approaches to Autism Spectrum Disorder</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/2015-translational-chapter-text.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2014">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span><a href="/pt/authors/alison/">alison</a></span>, <span>Katherine E. Zuckerman</span>, <span>Arlene D. Hagen</span>, <span>Daniel J. Kriz</span>, <span>Susanne W. Duvall</span>, <span>Jan van Santen</span>, <span>Joel Nigg</span>, <span>Damien Fair</span>, <span>Eric Fombonne</span>
+  </span>
+  (2014).
+  <a href="/pt/publication/2014-aggression-in-asd/">Aggressive Behavior Problems in Children with Autism Spectrum Disorders: Prevalence and Correlates in a Large Clinical Sample</a>.
+  In <em>Research in Autism Spectrum Disorders</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/2014-aggression-in-asd.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-6 year-2014">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span><a href="/pt/authors/alison/">alison</a></span>, <span>Katharine Zuckerman</span>, <span>Eric Fombonne</span>
+  </span>
+  (2014).
+  <a href="/pt/publication/2014-handbook/">Epidemiology of autism spectrum disorders</a>.
+  In <em>Handbook of Autism and Pervasive Developmental Disorders, Volume 2, 4th edition</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/2014-handbook-chapter-text.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2014">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span>Katharine E. Zuckerman</span>, <span><a href="/pt/authors/alison/">alison</a></span>, <span>Kimberly Guion</span>, <span>Lisa Voltolina</span>, <span>Eric Fombonne</span>
+  </span>
+  (2014).
+  <a href="/pt/publication/2014-obesity-in-asd-oregon/">Overweight and Obesity: Prevalence and Correlates in a Large Clinical Sample of Children with Autism Spectrum Disorder</a>.
+  JADD.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/2014-obesity-in-asd-oregon.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2014">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span><a href="/pt/authors/alison/">alison</a></span>, <span>Eric Fombonne</span>
+  </span>
+  (2014).
+  <a href="/pt/publication/2014-asd-epidemiology-in-practice/">Epidemiology of Autism Spectrum Disorder</a>.
+  In <em>Cutting Edge Psychiatry in Practice</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/2014-asd-epidemiology-in-practice.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2013">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span>Jan P. H. van Santen</span>, <span>Richard W. Sproat</span>, <span><a href="/pt/authors/alison/">alison</a></span>
+  </span>
+  (2013).
+  <a href="/pt/publication/2013-repetitive-speech-in-asd-sli/">Quantifying Repetitive Speech in Autism Spectrum Disorders and Language Impairment</a>.
+  In <em>Autism Research</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/2013-repetitive-speech-in-asd-sli.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2011">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span>Kristina M. Zosuls</span>, <span>Carol Lynn Martin</span>, <span>Diane N. Ruble</span>, <span>Cindy F. Miller</span>, <span>Bridget M. Gaertner</span>, <span>Dawn E. England</span>, <span><a href="/pt/authors/alison/">alison</a></span>
+  </span>
+  (2011).
+  <a href="/pt/publication/2011-gender-attitudes/">‘It’s Not That We Hate You’: Understanding Children’s Gender Attitudes and Expectancies About Peer Relationships</a>.
+  In <em>British Journal of Developmental Psychology</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/2011-gender-attitudes.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2007">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span><a href="/pt/authors/alison/">alison</a></span>, <span>Tedra A. Walden</span>, <span>Wendy L. Stone</span>, <span>Paul J. Yoder</span>
+  </span>
+  (2007).
+  <a href="/pt/publication/2007-rja-in-sibs/">Effects of Different Attentional Cues on Responding to Joint Attention in Younger Siblings of Children with Autism Spectrum Disorders</a>.
+  JADD.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/2007-rja-in-sibs.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2004">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span>David P. McCabe</span>, <span><a href="/pt/authors/alison/">alison</a></span>, <span>Chuck L. Robertson</span>, <span>Anderson D. Smith</span>
+  </span>
+  (2004).
+  <a href="/pt/publication/2004-false-memories/">Item-specific Processing Reduces False Memories</a>.
+  PB&amp;R.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/2004-false-memories.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+      </div>
+
+    </div>
+  </div>
 </div>
 
       
@@ -417,18 +1736,18 @@
     
     
     
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
 
       
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
@@ -436,6 +1755,10 @@
       
     
 
+    
+    
+
+    
     
     
 
@@ -445,21 +1768,51 @@
     
 
     
+    
+    <script>
+      const search_index_filename = "/pt/index.json";
+      const i18n = {
+        'placeholder': "Pesquisar...",
+        'results': "Resultados encontrados",
+        'no_results': "Sem resultados"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projetos",
+        'publication' : "Publicações",
+        'talk' : "Palestras"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
-
-    
-    
-
-    
-    
-
-    
-    
-
     
     
     
@@ -468,11 +1821,12 @@
     
     
     
+      
     
     
     
     
-    <script src="/js/academic.min.dc856155b640fa1cd8bd8b7b068fe79c.js"></script>
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
 
     
 
@@ -481,26 +1835,16 @@
 
 
 
+  
   
   <div class="container">
     <footer class="site-footer">
   
-  <p class="powered-by">
-    
-      <a href="/privacy/"></a>
-    
-    
-       &middot; 
-      <a href="/terms/"></a>
-        
-  </p>
-  
 
   <p class="powered-by">
-    
+    © Douglas Vinícius 2020 &middot; 
 
-    © 2019 Douglas Vinícius <a href="https://github.com/Doug7Vinicius/douglas_website" target="_blank" rel="noopener"><i class="fas fa-code-branch"></i></a>
-    Made with <a href="https://www.r-project.org/" target="_blank" rel="noopener"><i class="fab fa-r-project"></i> </a><a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown</a> package, and the
+    Made with <i class="far fa-heart" style="color: #06805E"></i>, <a href="https://github.com/rbind/apreshill" target="_blank" rel="noopener"><i class="fas fa-code-branch"></i></a>, the <a href="https://cran.r-project.org/" target="_blank" rel="noopener"><i class="fab fa-r-project"></i> </a><a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown</a> package, and the 
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
     <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
 
@@ -524,7 +1868,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
+        <h5 class="modal-title">Citação</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -534,7 +1878,7 @@
       </div>
       <div class="modal-footer">
         <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
+          <i class="fas fa-copy"></i> Copiar
         </a>
         <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
           <i class="fas fa-download"></i> Download

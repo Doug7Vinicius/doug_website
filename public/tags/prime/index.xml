@@ -5,19 +5,28 @@
     <link>/tags/prime/</link>
       <atom:link href="/tags/prime/index.xml" rel="self" type="application/rss+xml" />
     <description>prime</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Douglas Vinícius 2020</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/normal_1.png</url>
+      <url>/img/sombrero.jpg</url>
       <title>prime</title>
       <link>/tags/prime/</link>
     </image>
     
     <item>
       <title>Prime Number Theory</title>
-      <link>/pt/publication/prime/</link>
+      <link>/publication/prime/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/pt/publication/prime/</guid>
+      <guid>/publication/prime/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Prime Numbers</title>
+      <link>/project/number-theory/</link>
+      <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/project/number-theory/</guid>
+      <description>&lt;p&gt;in progress&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

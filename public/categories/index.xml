@@ -5,36 +5,12 @@
     <link>/categories/</link>
       <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Sep 2019 21:14:14 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Douglas Vinícius 2020</copyright><lastBuildDate>Mon, 20 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/normal_1.png</url>
+      <url>/img/sombrero.jpg</url>
       <title>Categories</title>
       <link>/categories/</link>
     </image>
-    
-    <item>
-      <title>logic</title>
-      <link>/categories/logic/</link>
-      <pubDate>Fri, 20 Sep 2019 21:14:14 -0500</pubDate>
-      <guid>/categories/logic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Math</title>
-      <link>/categories/math/</link>
-      <pubDate>Fri, 20 Sep 2019 21:14:14 -0500</pubDate>
-      <guid>/categories/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Demo</title>
-      <link>/categories/demo/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/categories/demo/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

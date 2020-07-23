@@ -1,15 +1,15 @@
 {
-  "name": "Chinese website title...",
-  "short_name": "Chinese website title...",
+  "name": "Douglas Vinícius",
+  "short_name": "Douglas Vinícius",
   "lang": "pt-bz",
   "theme_color": "rgb(0, 136, 204)",
   "background_color": "rgb(0, 136, 204)",
   "icons": [{
-    "src": "img/icon-192.png",
+    "src": "/images/icon_hue95950bcb6781434fc94b614d025d7a7_12723_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
     "type": "image/png"
     }, {
-    "src": "img/icon-512.png",
+    "src": "/images/icon_hue95950bcb6781434fc94b614d025d7a7_12723_512x512_fill_lanczos_center_2.png",
     "sizes": "512x512",
     "type": "image/png"
      }],

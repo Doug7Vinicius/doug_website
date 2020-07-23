@@ -1,299 +1,152 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Douglas Vinícius</title>
+    <title>Blog | Douglas Vinícius</title>
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 20 Sep 2019 21:14:14 -0500</lastBuildDate>
+    <description>Blog</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Douglas Vinícius 2020</copyright><lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/normal_1.png</url>
-      <title>Posts</title>
+      <url>/img/sombrero.jpg</url>
+      <title>Blog</title>
       <link>/post/</link>
     </image>
     
     <item>
-      <title>Lógica Matemática</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Fri, 20 Sep 2019 21:14:14 -0500</pubDate>
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>
-
-
-&lt;div id=&#34;logica-matematica&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Lógica Matemática&lt;/h1&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Writing technical content in Academic</title>
-      <link>/post/writing-technical-content/</link>
-      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>/post/writing-technical-content/</guid>
-      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;On this page, you&#39;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
-
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```python
-import pandas as pd
-data = pd.read_csv(&amp;#34;data.csv&amp;#34;)
-data.head()
-```&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; pandas &lt;span style=&#34;color:#f92672&#34;&gt;as&lt;/span&gt; pd
-data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; pd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;read_csv(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;data.csv&amp;#34;&lt;/span&gt;)
-data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;head()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
-
-&lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file and adding &lt;code&gt;markup: mmark&lt;/code&gt; to your page front matter.&lt;/p&gt;
-
-&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$$...$$&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-tex&#34; data-lang=&#34;tex&#34;&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;$$&lt;/span&gt;\gamma_{n} &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; \frac{ 
-\left | \left &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;\mathbf x_{n} &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; \mathbf x_{n&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;} \right &lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;^T 
-\left &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;\nabla F &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;\mathbf x_{n}&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; \nabla F &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;\mathbf x_{n&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;}&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; \right &lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; \right |}
-{\left \|\nabla F&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;\mathbf{x}_{n}&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; \nabla F&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;\mathbf{x}_{n&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;}&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; \right \|^&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;}&lt;span style=&#34;color:#e6db74&#34;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$$\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2$$&lt;/code&gt; renders as &lt;span  class=&#34;math&#34;&gt;\(\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2\)&lt;/span&gt; .&lt;/p&gt;
-
-&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\&lt;/code&gt; math linebreak:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-tex&#34; data-lang=&#34;tex&#34;&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;$$&lt;/span&gt;f&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;k;p_&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;^&lt;span style=&#34;color:#f92672&#34;&gt;*)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; \begin{cases} p_&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;^&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; &amp;amp; \text{if }k&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, \\
-&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;p_&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;^&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; &amp;amp; \text {if }k&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;.\end{cases}&lt;span style=&#34;color:#e6db74&#34;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[f(k;p_0^*) = \begin{cases} p_0^* &amp; \text{if }k=1, \\
-1-p_0^* &amp; \text {if }k=0.\end{cases}\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
-
-&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
-
-&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-graph TD;
-  A--&amp;gt;B;
-  A--&amp;gt;C;
-  B--&amp;gt;D;
-  C--&amp;gt;D;
-```&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;graph TD;
-  A--&amp;gt;B;
-  A--&amp;gt;C;
-  B--&amp;gt;D;
-  C--&amp;gt;D;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-sequenceDiagram
-  participant Alice
-  participant Bob
-  Alice-&amp;gt;John: Hello John, how are you?
-  loop Healthcheck
-      John-&amp;gt;John: Fight against hypochondria
-  end
-  Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail...
-  John--&amp;gt;Alice: Great!
-  John-&amp;gt;Bob: How about you?
-  Bob--&amp;gt;John: Jolly good!
-```&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;sequenceDiagram
-  participant Alice
-  participant Bob
-  Alice-&amp;gt;John: Hello John, how are you?
-  loop Healthcheck
-      John-&amp;gt;John: Fight against hypochondria
-  end
-  Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail...
-  John--&amp;gt;Alice: Great!
-  John-&amp;gt;Bob: How about you?
-  Bob--&amp;gt;John: Jolly good!&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-gantt
-  dateFormat  YYYY-MM-DD
-  section Section
-  A task           :a1, 2014-01-01, 30d
-  Another task     :after a1  , 20d
-  section Another
-  Task in sec      :2014-01-12  , 12d
-  another task      : 24d
-```&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;gantt
-  dateFormat  YYYY-MM-DD
-  section Section
-  A task           :a1, 2014-01-01, 30d
-  Another task     :after a1  , 20d
-  section Another
-  Task in sec      :2014-01-12  , 12d
-  another task      : 24d&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
-
-&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;- [x]&lt;/span&gt; Write math example
-&lt;span style=&#34;color:#66d9ef&#34;&gt;- [x]&lt;/span&gt; Write diagram example
-- [ ] Do something else&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-
+      <title>How I Taught Tidymodels, Virtually</title>
+      <link>/post/2020-06-02-tidymodels-virtually/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020-06-02-tidymodels-virtually/</guid>
+      <description>&lt;p&gt;A few weeks ago, I wrapped up teaching 
+&lt;a href=&#34;https://www.tidymodels.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidymodels&lt;/a&gt; for the third time. We say third time&amp;rsquo;s the charm, right? Even during a global pandemic? I don&amp;rsquo;t know, but this time around was fun in new ways and hard in new ways, so I wanted to take the time to write some thoughts down about how it went.&lt;/p&gt;
+&lt;h2 id=&#34;but-why&#34;&gt;But why?&lt;/h2&gt;
+&lt;p&gt;Why teach tidymodels virtually? I&amp;rsquo;ve already taught it as a 
+&lt;a href=&#34;/project/tidyml&#34;&gt;2-day workshop&lt;/a&gt; at rstudio::conf(2020). I had already agreed to teach intro to machine learning with tidymodels as a full-day workshop for the Cascadia R Conf (which unfortunately was cancelled due to COVID), and the 
+&lt;a href=&#34;/talk/2020-rmedicine-tidyml/&#34;&gt;R / Medicine conference&lt;/a&gt; (still on, and 100% virtual!).&lt;/p&gt;
+&lt;p&gt;I had three main goals:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34;&gt; Write math example&lt;/li&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34;&gt; Write diagram example&lt;/li&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled=&#34;&#34;&gt; Do something else&lt;/li&gt;
+&lt;li&gt;First, I wanted to do a good job for the R / Medicine conference workshop in August. This seemed like an interesting teaching challenge. One of the best compliments I&amp;rsquo;ve ever gotten from a colleague is that I &amp;ldquo;teach with heart&amp;rdquo; — so the challenge was, can a virtual workshop have a ❤️?&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
-
-&lt;p&gt;Represent your data in tables:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;First Header&lt;/th&gt;
-&lt;th&gt;Second Header&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;asides&#34;&gt;Asides&lt;/h3&gt;
-
-&lt;p&gt;Academic supports a Markdown extension for asides, also referred to as &lt;em&gt;notices&lt;/em&gt; or &lt;em&gt;hints&lt;/em&gt;. By prefixing a paragraph with &lt;code&gt;A&amp;gt;&lt;/code&gt;, it will render as an aside. You can enable this feature by adding &lt;code&gt;markup: mmark&lt;/code&gt; to your page front matter, or alternatively using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts&#34;&gt;&lt;em&gt;Alert&lt;/em&gt; shortcode&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;A&amp;gt; A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-
-&lt;aside&gt;
-&lt;p&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/p&gt;
-&lt;/aside&gt;
-
-&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Display Jupyter Notebooks with Academic</title>
-      <link>/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/post/jupyter/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; IPython.core.display &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; Image
-Image(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&amp;#39;&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;./academic_0_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Welcome to Academic!&amp;#34;&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;Welcome to Academic!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;install-python-and-jupyter&#34;&gt;Install Python and Jupyter&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and Jupyter notebook.&lt;/p&gt;
-&lt;p&gt;Otherwise, for advanced users, install Jupyter notebook with &lt;code&gt;pip3 install jupyter&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;create-a-new-blog-post-as-usualhttpssourcethemescomacademicdocsmanaging-contentcreate-a-blog-post&#34;&gt;Create a new blog post &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post&#34;&gt;as usual&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY_WEBSITE_FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;my-post&lt;/code&gt; with the file path to your Academic website folder and a name for your blog post (without spaces), respectively:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;
-hugo new  --kind post post/my-post
-cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;/content/post/my-post/
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
-&lt;p&gt;Run the following command to start Jupyter within your new blog post folder. Then create a new Jupyter notebook (&lt;em&gt;New &amp;gt; Python Notebook&lt;/em&gt;) or upload a notebook.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;jupyter notebook
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;jupyter nbconvert Untitled.ipynb --to markdown --NbConvertApp.output_files_dir&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;.
-
-&lt;span style=&#34;color:#75715e&#34;&gt;# Copy the contents of Untitled.md and append it to index.md:&lt;/span&gt;
-cat Untitled.md | tee -a index.md
-
-&lt;span style=&#34;color:#75715e&#34;&gt;# Remove the temporary file:&lt;/span&gt;
-rm Untitled.md
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
-&lt;p&gt;Open &lt;code&gt;index.md&lt;/code&gt; in your text editor and edit the title etc. in the &lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34;&gt;front matter&lt;/a&gt; according to your preference.&lt;/p&gt;
-&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
-&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Academic: the website builder for Hugo</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/post/getting-started/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/RAAEmgtmiR3Fe/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Setup Academic&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34;&gt;View the documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/&#34;&gt;Ask a question&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34;&gt;Request a feature or report a bug&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Updating? View the &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Support development of Academic:
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://paypal.me/cushen&#34;&gt;Donate a coffee&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.patreon.com/cushen&#34;&gt;Become a backer on Patreon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34;&gt;Decorate your laptop or journal with an Academic sticker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://academic.threadless.com/&#34;&gt;Wear the T-shirt&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;
+&lt;p&gt;Second, given current events, I saw an opportunity to document a good system (tooling + pedagogy + logistics) around virtual workshops. I don&amp;rsquo;t see them going away anytime soon. My colleague, 
+&lt;a href=&#34;https://third-bit.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Greg Wilson&lt;/a&gt;, had also been giving our 
+&lt;a href=&#34;https://education.rstudio.com/trainers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio certified instructor&lt;/a&gt; 
+&lt;a href=&#34;https://drive.google.com/drive/folders/13ohFt3D0EJ5PDbMaWTxnHH-hwA7G0IvY&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;workshops virtually&lt;/a&gt; for over a year, so I trusted that he could help me navigate.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Third, help out the R / Medicine conference organizers. My partner-in-crime for this particular workshop, 
+&lt;a href=&#34;https://education.rstudio.com/trainers/people/kadauke&amp;#43;stephan/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Stephan Kadauke&lt;/a&gt;, wanted to join me for some reconnaissance work. He is one of the conference organizers and will be leading his own workshop there, so he wanted to test out the tooling and the pedagogy too.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-
-
-
-
-
-
-&lt;figure&gt;
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; &gt;
-
-&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; &gt;
-&lt;/a&gt;
-
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;So we thought, three birds, one stone: I get to pilot a much shorter version of my conf workshop materials, we get to test doing it virtually, and the R / Medicine conference organizers learn how this could all work in August.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/oVP8LBbOv57S8/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;how-we-planned-it&#34;&gt;How we planned it&lt;/h2&gt;
+&lt;p&gt;Starting out, I knew I had two main hurdles:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;li&gt;Shaving two days of workshop content into &lt;code&gt;X&lt;/code&gt; days&lt;/li&gt;
+&lt;li&gt;Logistics (like figuring out what &lt;code&gt;X&lt;/code&gt; should be!)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;color-themes&#34;&gt;Color Themes&lt;/h2&gt;
-&lt;p&gt;Academic comes with &lt;strong&gt;day (light) and night (dark) mode&lt;/strong&gt; built-in. Click the sun/moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34;&gt;Demo&lt;/a&gt; to see it in action!&lt;/p&gt;
-&lt;p&gt;Choose a stunning color and font theme for your site. Themes are fully customizable and include:&lt;/p&gt;
+&lt;p&gt;The first decision based on conversations with Greg was to offer the workshop across two half-days. This is how the RStudio instructor training is timed, and it works well because there are few people who can (or want to) be tied up for a full day, especially if under stay-at-home orders. We asked Stephan if his group at the 
+&lt;a href=&#34;https://www.chop.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Children&amp;rsquo;s Hospital of Philadelphia (CHOP)&lt;/a&gt; would be up for two 4-hour sessions. Stephan&amp;rsquo;s feedback was yes, but given that these folks at CHOP typically have weekly schedules, having two consecutive days would not work. So we opted for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Two 4-hour sessions that were&amp;hellip;&lt;/li&gt;
+&lt;li&gt;exactly one week apart.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I&amp;rsquo;m in Oregon, they were in Philly, so we decided to start at 9am my time (1pm for them) and wrap up at 1pm my time (5pm for them). After making this call, and again with Greg&amp;rsquo;s sage advice to 
+&lt;a href=&#34;https://education.rstudio.com/blog/2020/03/teaching-online-on-short-notice/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;take a break every hour&lt;/a&gt;, I started working on a rough schedule. I had about 8 hours total to work with; about half of my conf workshop. We decided on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;50 minute chunks, and&lt;/li&gt;
+&lt;li&gt;10 minute breaks at 10 till the hour every single hour.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I didn&amp;rsquo;t try to make sure my materials for each session filled exactly 50 minutes. Instead, I promised the group that I would break wherever I was at the same time, and after each break we just picked up where left off.&lt;/p&gt;
+&lt;p&gt;Here was the new topic outline:&lt;/p&gt;
+&lt;h3 id=&#34;day-1&#34;&gt;Day 1&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://tmv.netlify.app/slides/00-intro&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Session 00:&lt;/a&gt; Intro (include a tooling tour- orient to Google doc + Zoom)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://tmv.netlify.app/slides/01-model&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Session 01:&lt;/a&gt; Build a model (mainly parsnip package)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://tmv.netlify.app/slides/02-resample&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Session 02:&lt;/a&gt; Resample a model (add rsample package, plus tune package for &lt;code&gt;fit_resamples()&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://tmv.netlify.app/slides/03-recipes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Session 03:&lt;/a&gt; Build a better training set (add recipes and workflows packages)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;day-2&#34;&gt;Day 2&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://tmv.netlify.app/slides/04-ensemble&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Session 04:&lt;/a&gt; Build an ensemble model (back to parsnip, now with model arguments)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://tmv.netlify.app/slides/05-tune&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Session 05:&lt;/a&gt; Tune a model (heavy tune package)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://tmv.netlify.app/slides/06-case-study&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Session 06:&lt;/a&gt; The Great Model-Off (a Kaggle-like group activity)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The final decision was about tooling. Luckily, Greg had advice here too. We went with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google doc as the &amp;ldquo;home page&amp;rdquo; + chat (no workshop website!)&lt;/li&gt;
+&lt;li&gt;RStudio Cloud for all exercises&lt;/li&gt;
+&lt;li&gt;Zoom for video&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;pre-workshop-launch-list&#34;&gt;Pre-workshop launch list&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Make shared Google doc and prepopulate with: Zoom link, RStudio Cloud link, bulleted list of participant names (be sure to make this &lt;em&gt;editable&lt;/em&gt; for anyone!)&lt;/li&gt;
+&lt;li&gt;Email everyone with a Google calendar invite that includes the Zoom link and a link to a shared Google doc (be sure to make this &lt;em&gt;editable&lt;/em&gt; for anyone!)&lt;/li&gt;
+&lt;li&gt;Ask everyone to fill in their 2-sentence bios ahead of time to ensure that you&amp;rsquo;ve done this correctly!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The Zoom link and the Google doc link should be the &lt;strong&gt;only&lt;/strong&gt; links that attendees see ahead of time. Then, the Google doc is the one true source for everything. Too many links at first leads to confusion later. I also prepopulated the doc with my session outline with HTML links to each session&amp;rsquo;s slide deck.&lt;/p&gt;
+&lt;h2 id=&#34;actual-launch&#34;&gt;Actual launch&lt;/h2&gt;
+&lt;p&gt;In Zoom, I set it up to 
+&lt;a href=&#34;https://support.zoom.us/hc/en-us/articles/203435537-Mute-All-And-Unmute-All&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mute everyone&lt;/a&gt; as they joined. We started with an 
+&lt;a href=&#34;https://tmv.netlify.app/slides/00-intro&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;orientation&lt;/a&gt; of the tools, the schedule, and the general plan for how they would work and interact with each other. We tried to keep questions per session in the Google doc, which my TA Stephan fielded in real time, which now is a great resource for me as I prepare for this again in August.&lt;/p&gt;
+&lt;p&gt;What I should have done:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Have a Code of Conduct. I will next time. We didn&amp;rsquo;t have any issues, but what came up later was that I asked participants to turn on their cameras. I wished that part of my Code of Conduct was that we would not videotape or take screenshots at any point to protect the privacy of all participants.&lt;/li&gt;
+&lt;li&gt;Asked folks to make sure they had an updated version of Zoom. In particular, some newer security issues have been addressed recently, so this is nice for everyone to take advantage of. Plus the interface looked different for some.&lt;/li&gt;
+&lt;li&gt;Locked down the Zoom room. After a few minutes of starting, it was super distracting to have late arrivals who kept sending me personal chats asking for the links.&lt;/li&gt;
+&lt;li&gt;In addition to locking down after the first 10-15 minutes, I also should have assigned my TA as a 
+&lt;a href=&#34;https://support.zoom.us/hc/en-us/articles/206330935-Enabling-and-adding-a-co-host&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;co-host&lt;/a&gt;, so that he could have helped me manage that. We did this on day 2 and it worked great.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;how-did-it-go&#34;&gt;How did it go?&lt;/h2&gt;
+&lt;p&gt;So, I&amp;rsquo;m not going to lie here. The first session of teaching spooked me a bit. This was because all attendees left their videos off and I felt like:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/AEMyf9Oj6MpS8/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It was eerie to teach to a silent void. On day 2, I asked for two volunteers to turn on their cameras for a single 50 minute block each because it really helped me to see faces. Participants probably kept their own view as &amp;ldquo;speaker only&amp;rdquo;, but for me it really helped to be able to have some human feedback, even if they were muted. Much love to the head nodders out there. This conversation on day 2 broke my heart though, because several participants indicated they felt they couldn&amp;rsquo;t turn on their cameras because they had young children at home. It is &lt;strong&gt;hard&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Interestingly, the participants didn&amp;rsquo;t sense my discomfort at all. In fact, I heard from several that it was nice to see me up close and so personal. It actually felt &lt;em&gt;more personal&lt;/em&gt; than a large in-person workshop, to my surprise.&lt;/p&gt;
+&lt;p&gt;On day 1, I started by asking participants to use Zoom reactions (like thumbs up) to answer questions, give me progress updates, etc. I ended up retiring this- it was distracting and the reactions disappear so it wasn&amp;rsquo;t actually useful. Instead, I asked people to use the Zoom chat to indicate &amp;ldquo;done&amp;rdquo; or give quick one-word answers (a or b, yes or no).&lt;/p&gt;
+&lt;p&gt;Stephan also had a great idea for the breaks. On day 2, I started using Garrick Aden-Buie&amp;rsquo;s 
+&lt;a href=&#34;https://pkg.garrickadenbuie.com/countdown/#29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;countdown app&lt;/a&gt; to show the 10 minute break countdown full-screen. I used the hosted version 
+&lt;a href=&#34;https://apps.garrickadenbuie.com/countdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;what-can-i-do-better&#34;&gt;What can I do better?&lt;/h2&gt;
+&lt;p&gt;Logistically, I got really frustrated because I kept losing my Zoom meeting controls. Later I found out about this accessibility setting, which would have helped!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;zoom-controls.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;More substantively, as I mentioned, I would have a Code of Conduct at the very beginning. I also think virtual workshops offer a unique opportunity to include some more creative exercise types. Here are a few I brainstormed with Greg Wilson after the fact—expect to see these at R / Medicine if you attend with me!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Spot the bug- do in groups&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Unscramble code&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Predict what is going to happen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fill in the blank with the 
+&lt;a href=&#34;https://education.rstudio.com/blog/2020/05/flair/#example-3--mask-code-for-easy-practice-activities&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;flair package&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/13eay0HFG25jy0/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;verdict&#34;&gt;Verdict&lt;/h2&gt;
+&lt;p&gt;Transitioning from primarily teaching in person to teaching virtually is &lt;em&gt;hard&lt;/em&gt;, and I&amp;rsquo;m in awe of 
+&lt;a href=&#34;https://education.rstudio.com/blog/2020/05/remote-roundup/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;all the instructors&lt;/a&gt; I know who have had to do this on very short notice. But, can it be done with heart? Yes, I think so ❤️&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/v9tIehXauaCbK/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;thanks&#34;&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;Thanks to the participants, who were the loveliest guinea pigs. It is a hard time to learn and a hard time to find time. I appreciate that you took time out of your lives to spend 8 hours with me.&lt;/p&gt;
+&lt;p&gt;Thanks also to 
+&lt;a href=&#34;https://third-bit.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Greg Wilson&lt;/a&gt; for his support, and 
+&lt;a href=&#34;https://www.chop.edu/doctors/kadauke-stephan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stephan Kadauke&lt;/a&gt; for being an awesome co-pilot. Extra special thanks to 
+&lt;a href=&#34;https://desiree.rbind.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Desirée De Leon&lt;/a&gt;, who has the biggest heart of all. Knowing that I didn&amp;rsquo;t have time for creativity with my slides, she surprised me with the most beautiful xaringan slide deck theme based on 
+&lt;a href=&#34;https://www.tidymodels.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tidymodels.org&lt;/a&gt;. I merged in her PR &lt;em&gt;with glee and delight&lt;/em&gt;, I know the participants felt those same emotions too (while learning about machine learning, no less!) 🌼&lt;/p&gt;
 
 
 
@@ -317,12 +170,8 @@ rm Untitled.md
     
     
     
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
-  &lt;img src=&#34;/post/getting-started/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.05%20PM.png&#34; &gt;
+  &lt;img data-src=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.05%20PM_hu8ddd347995e1b8316aad5f226eef880e_1335197_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -330,12 +179,8 @@ rm Untitled.md
     
     
     
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
-  &lt;img src=&#34;/post/getting-started/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.51%20PM.png&#34; &gt;
+  &lt;img data-src=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.51%20PM_hu8ddd347995e1b8316aad5f226eef880e_932227_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -343,12 +188,8 @@ rm Untitled.md
     
     
     
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
-  &lt;img src=&#34;/post/getting-started/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.58%20PM.png&#34; &gt;
+  &lt;img data-src=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.58%20PM_hu8ddd347995e1b8316aad5f226eef880e_2521546_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -356,12 +197,8 @@ rm Untitled.md
     
     
     
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
-  &lt;img src=&#34;/post/getting-started/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.06%20PM.png&#34; &gt;
+  &lt;img data-src=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.06%20PM_hu8ddd347995e1b8316aad5f226eef880e_1994290_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
     
@@ -369,76 +206,649 @@ rm Untitled.md
     
     
     
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
-  &lt;img src=&#34;/post/getting-started/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
-  &lt;img src=&#34;/post/getting-started/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
-  &lt;img src=&#34;/post/getting-started/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-strawberry.png&#34; data-caption=&#34;Strawberry&#34;&gt;
-  &lt;img src=&#34;/post/getting-started/gallery/theme-strawberry_hu36b0b347fcca08bd39e2df22dcedbdfb_39532_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-slides&#34; href=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.41%20PM.png&#34; &gt;
+  &lt;img data-src=&#34;/post/2020-06-02-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.41%20PM_hu8ddd347995e1b8316aad5f226eef880e_365121_0x190_resize_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;338&#34; height=&#34;190&#34;&gt;
   &lt;/a&gt;
   
 
   
 &lt;/div&gt;
+&lt;h2 id=&#34;feedback&#34;&gt;Feedback&lt;/h2&gt;
+&lt;p&gt;If you are curious, here is some of the feedback I collected at the bottom of our Google doc:&lt;/p&gt;
+&lt;h3 id=&#34;two-half-days&#34;&gt;Two half days?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;worked well for me. A full day would be tough.&lt;/li&gt;
+&lt;li&gt;Worked well for me also and I also think having all in one day would be a lot.&lt;/li&gt;
+&lt;li&gt;worked well.&lt;/li&gt;
+&lt;li&gt;worked well for me too.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;separated-by-one-week&#34;&gt;Separated by one week?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;seemed fine.&lt;/li&gt;
+&lt;li&gt;I liked this!&lt;/li&gt;
+&lt;li&gt;good. Enough time to digest the previous session&lt;/li&gt;
+&lt;li&gt;yes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pace-too-fast-too-slow&#34;&gt;Pace: too fast, too slow?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;good pace&lt;/li&gt;
+&lt;li&gt;I liked the pace. It felt like we covered a lot of ground quickly, but also like we have great resources to come back to for refreshing on what we learned.&lt;/li&gt;
+&lt;li&gt;good pace, except at “data leakage”. I still have hard time to understand that part.&lt;/li&gt;
+&lt;li&gt;good pace.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;scope-too-small-too-big&#34;&gt;Scope: too small, too big?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;nice scope&lt;/li&gt;
+&lt;li&gt;Nice scope&lt;/li&gt;
+&lt;li&gt;very nice and practical.&lt;/li&gt;
+&lt;li&gt;nice scope.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;timing-in-50-min-chunks-too-many-or-too-few-breaks&#34;&gt;Timing in 50 min chunks: too many or too few breaks?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The 50 min chunks were great! I thought perfect length.&lt;/li&gt;
+&lt;li&gt;Perfect break up. And the 10 min breaks gave enough time to make tea, grab a snack, etc.&lt;/li&gt;
+&lt;li&gt;I am fine with that.&lt;/li&gt;
+&lt;li&gt;works well.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;timed-code-exercises-too-easy-too-hard&#34;&gt;Timed code exercises: too easy, too hard?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;good&lt;/li&gt;
+&lt;li&gt;Neither, I thought they were appropriate&lt;/li&gt;
+&lt;li&gt;good.&lt;/li&gt;
+&lt;li&gt;good.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;in-between-homeworkreading&#34;&gt;In-between homework/reading?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;maybe some light reading or practice&lt;/li&gt;
+&lt;li&gt;In theory I think I would have liked some ‘homework’, but the week turned out to be so busy that I don’t know if I would’ve made time to complete it before the workshop.&lt;/li&gt;
+&lt;li&gt;will be helpful to give some reading about different model descriptions in-between.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;final-take-home-project---feedback&#34;&gt;Final take-home project (+/- feedback)?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;optional&lt;/li&gt;
+&lt;li&gt;I think this could be fun if we had access to a few different datasets to choose from. With maybe some pointers on what to look out for as we explore the data. Is it unbalanced? Could any two variables be collinear? Etc.&lt;/li&gt;
+&lt;li&gt;i would vote for take-home project to play with.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;zoom-video-onoff&#34;&gt;Zoom: video on/off?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I find video distracting while working/listening/learning.&lt;/li&gt;
+&lt;li&gt;I like being able to see the presenter/speaker’s video. I tend to choose “Speaker View” so that I don’t see all the participant videos (which I would find distracting).&lt;/li&gt;
+&lt;li&gt;i am fine with either. I know, from the speaker’s perspective, it will be good to have video on.&lt;/li&gt;
+&lt;li&gt;I think it was nice and respectful to ask volunteers to turn video on part time! (Kudos to Stephan for having it on the whole time!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;google-doc-as-our-home-page-and-discussion-forum&#34;&gt;Google doc as our “home page” and “discussion forum”?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Great!&lt;/li&gt;
+&lt;li&gt;Yes! I thought it was a really helpful tool and ‘homebase’ to come to for all of the things (slides, R Studio Cloud project, etc.)&lt;/li&gt;
+&lt;li&gt;very good! Much easier to track.&lt;/li&gt;
+&lt;li&gt;works!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rstudiocloud&#34;&gt;Rstudio.cloud?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;pretty good except for crashing at end.&lt;/li&gt;
+&lt;li&gt;ditto.&lt;/li&gt;
+&lt;li&gt;I really enjoyed using R Studio Cloud. It makes it easier when I don’t have to worry about pre-installing packages or updating my version of R in order to go into a workshop. Having everything already set up for you in there is super convenient.&lt;/li&gt;
+&lt;li&gt;I like Rstudio cloud generally. Just not suitable for complicated model training.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How I Teach R Markdown</title>
+      <link>/post/2020-05-28-how-i-teach-r-markdown/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020-05-28-how-i-teach-r-markdown/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Ah, &lt;a href=&#34;https://rmarkdown.rstudio.com/&#34;&gt;R Markdown&lt;/a&gt;. I love teaching R Markdown. But this was not a love at first sight story. When I first started teaching with R at Oregon Health &amp;amp; Science University many moons ago, my students used R Markdown for their homework assignments and in-class labs. This is a great way to start for beginners, to be honest- just use it! I found that most people are not very disoriented by a file that mixes text and code; a concern I had at first and one that I’ve heard voiced by other educators. It seems natural to use if it is your first exposure to &lt;em&gt;all the data science things&lt;/em&gt;, especially if you’ve never used an R script.&lt;/p&gt;
+&lt;p&gt;I did notice, though, that over the course of even just a few weeks, many of my students would reach unbearable levels of R Markdown curiosity. I would see signs of growing pains in their assignments, like how can I turn off these messages and warnings when I load packages? This is so long- how can I make it easier to find things? How can I make it look &lt;em&gt;better&lt;/em&gt;?&lt;/p&gt;
+&lt;p&gt;For all learners, there comes an uncomfortable point where you simply cannot just continue to use this awesome tool without learning how to use it. And I realized when I was teaching that ultimately it was unfair of me to assume that they would just learn an entire ecosystem while I stood idly by, clutching the secrets of being an &lt;a href=&#34;https://twitter.com/sharlagelfand/status/1114264529477799937?s=20&#34;&gt;“R Markdown Whisperer”&lt;/a&gt; close to my chest.&lt;/p&gt;
+&lt;p&gt;Like, &lt;strong&gt;why can’t you just find the piñata, kid&lt;/strong&gt;? But more importantly, what happens when you can’t? I think the risk is that learners either won’t like or won’t appreciate a tool that I genuinely &lt;a href=&#34;https://community.rstudio.com/t/convince-me-to-start-using-r-markdown/1636/7&#34;&gt;think would make their working lives better&lt;/a&gt;. If I believed it was worth their time to use it, it was worth my time to teach it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/xFcFJAryrhO6s/giphy.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;So like any good educator, I evolved. I decided that the next year, I would teach R Markdown. And I did. I went from:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Just use it”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/pHiWkDofYnRv2/giphy.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;To:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Just tell them how to use it already”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/3o7TKvFKwclJQDY30A/giphy.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;I waited until a few weeks into a quarter, and I spent a full lab period walking students through “Hey- this bit where you put the title of each assignment and your name? That’s called YAML! Here is what it does…” I showed them how to use &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/html-document.html#appearance-and-style&#34;&gt;bootswatch themes&lt;/a&gt;, make a &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/html-document.html#table-of-contents&#34;&gt;floating table of contents&lt;/a&gt;, control their output using the power of &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/r-code.html&#34;&gt;knitr&lt;/a&gt; code chunks and chunk options.&lt;/p&gt;
+&lt;p&gt;Guess what happened? The next batch of assignment my TA team and I received were…stunning. Creative. Beautiful. Thoughtful and thought-provoking. Students had taken care with their markdown headers, they played with flatly/yeti/united, they cared about not printing the giant output of a code chunk. It was a thing of beauty. I remember one of my beloved TAs, &lt;a href=&#34;https://grace.rbind.io/&#34;&gt;Grace Lawley&lt;/a&gt;, commenting that one star student’s homework “brought tears to her eyes” (and yes, I trained Grace too as she was also my research assistant, so she was already baptized into the R Markdown family).&lt;/p&gt;
+&lt;p&gt;But I have to admit, the first time I taught it, I had a hard time teaching it! I realized that I lacked vocabulary around things I used everyday, but had never really talked about out loud with anyone &lt;em&gt;in words&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Now, in my role at RStudio, I’ve devoted a lot of time and energy trying to figure out how we can make R Markdown easier- easier to discover, easier to debug, easier to use, and easier to talk about.&lt;/p&gt;
+&lt;p&gt;So without further ado, here are some of my guiding principles when introducing R Markdown to beginners, for those who are ready to go beyond casual knitter:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Make it. Make it again.&lt;/strong&gt; Knit early. Knit often. That means starting with a pre-filled Rmd document usually that you know &lt;em&gt;will&lt;/em&gt; knit. How do you motivate repeated knitting and make it satisfying? Teach the basics of output formats and options by editing mainly the YAML. Your goal is to show how small effort –&amp;gt; high polish. For single docs, I love &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/html-document.html&#34;&gt;&lt;code&gt;html_document()&lt;/code&gt;&lt;/a&gt; with a floating table of contents and a theme (like &lt;a href=&#34;https://rstudio-education.github.io/sharing-short-notice/#24&#34;&gt;this&lt;/a&gt;), switching quickly to &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/bookdown-output.html#a-single-document&#34;&gt;&lt;code&gt;bookdown::html_document2()&lt;/code&gt;&lt;/a&gt; and &lt;code&gt;distill::distill_article()&lt;/code&gt;. The latter two also enable automated figure numbering, which for scientific audiences is quite nice!&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;You can do something like this with &lt;a href=&#34;https://twitter.com/hashtag/rmarkdown?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rmarkdown&lt;/a&gt;. Ask students to knit to HTML, then use the bootswatch themes &lt;a href=&#34;https://t.co/J9ucdRWnIl&#34;&gt;https://t.co/J9ucdRWnIl&lt;/a&gt;&lt;br&gt;&lt;br&gt;Bonus: you get the prettiest &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; homeworks after this! 💐🖍️&lt;br&gt;---&lt;br&gt;title: &amp;quot;Habits&amp;quot; &lt;br&gt;output:   &lt;br&gt;    html_document:     &lt;br&gt;         theme: flatly&lt;br&gt;--- &lt;a href=&#34;https://t.co/wMQ3Uqhc7s&#34;&gt;https://t.co/wMQ3Uqhc7s&lt;/a&gt;&lt;/p&gt;&amp;mdash; Alison Presmanes Hill (@apreshill) &lt;a href=&#34;https://twitter.com/apreshill/status/1101866080996212736?ref_src=twsrc%5Etfw&#34;&gt;March 2, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Bonus when using a &lt;code&gt;theme&lt;/code&gt; with &lt;code&gt;html_document()&lt;/code&gt;: show off the &lt;code&gt;code_download&lt;/code&gt; output option!&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;TIL you can embed a &amp;quot;code download&amp;quot; button in an HTML &lt;a href=&#34;https://twitter.com/hashtag/rmarkdown?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rmarkdown&lt;/a&gt; doc so that users can click to download your source .Rmd from the rendered HTML version...without GitHub 🤩 &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt;&lt;br&gt;&lt;br&gt;YAML:&lt;br&gt;&lt;br&gt;---&lt;br&gt;output:&lt;br&gt;  html_document:&lt;br&gt;    code_download: true&lt;br&gt;---&lt;br&gt;&lt;br&gt;Test: &lt;a href=&#34;https://t.co/bp7w7XKF8b&#34;&gt;https://t.co/bp7w7XKF8b&lt;/a&gt; &lt;a href=&#34;https://t.co/uMQK0mvYcF&#34;&gt;pic.twitter.com/uMQK0mvYcF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Alison Presmanes Hill (@apreshill) &lt;a href=&#34;https://twitter.com/apreshill/status/1108925218850893832?ref_src=twsrc%5Etfw&#34;&gt;March 22, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Make it pretty.&lt;/strong&gt; The starting Rmd should have a nice &lt;a href=&#34;https://ggplot2.tidyverse.org/&#34;&gt;ggplot2&lt;/a&gt; graphic in there, and maybe a pretty &lt;a href=&#34;https://gt.rstudio.com/&#34;&gt;gt&lt;/a&gt; table too. This is a motivational, aspirational document! I also try to use local data sets, so they can see how that actually works, as opposed to using a data package.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Never underestimate the power of being able to make pretty &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; things. ⬆️ polish/effort ratio ➡️ happier users 🦚 &lt;a href=&#34;https://t.co/LMbFRUiuLa&#34;&gt;https://t.co/LMbFRUiuLa&lt;/a&gt;&lt;/p&gt;&amp;mdash; Alison Presmanes Hill (@apreshill) &lt;a href=&#34;https://twitter.com/apreshill/status/1101978567842291712?ref_src=twsrc%5Etfw&#34;&gt;March 2, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Make it snappy&lt;/strong&gt;. I aim to get to a shareable link in the first 20 minutes (at most!). I like to use &lt;a href=&#34;https://app.netlify.com/drop&#34;&gt;Netlify Drop&lt;/a&gt; for this. No account sign-up needed, and everyone knows how to drag-and-drop (see video below). It is very satisfying to get a link they can share with their mom/best friend/arch nemesis (kidding). I like to have everyone drop their links in a chat too, like a Slack, Google Doc, or a Gitter channel if doing a workshop. My favorite motto: &lt;em&gt;“if it knits, it ships”&lt;/em&gt; 🚢&lt;/p&gt;
+&lt;iframe src=&#34;https://rstudio-education.github.io/sharing-short-notice/images/single-doc-dnd.mp4&#34; width=&#34;672&#34; height=&#34;400px&#34;&gt;
+&lt;/iframe&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Make it real.&lt;/strong&gt; Teach folks what they need to know to actually use the tool productively in real life. If you are an avid R Markdown user, this means that you &lt;em&gt;know&lt;/em&gt; without a doubt that file paths will eventually be painful, for example. At the end of an intro, I go back and highlight things I just used to make sure they notice them like R Projects and the here package for data importing. I also love a good &lt;a href=&#34;https://rmd4medicine.netlify.app/slides/01-rmd-anatomy.html#77&#34;&gt;“Your Turn”&lt;/a&gt; exercise where you get a fresh data dump and all they have to do is re-knit. As in, “Surprise! Now instead of 3 sites, you have data from all 6 sites- what do you do?”&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Make it easy.&lt;/strong&gt; People will only keep using R Markdown if they see it making their life easier. So show them how. For example, the RStudio IDE has some very nice built-in features that make it much easier to be an R Markdown user. I point out things having a &lt;a href=&#34;https://apreshill.github.io/rmd4cdc/#112&#34;&gt;global setup chunk&lt;/a&gt;, and IDE features like:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://rmd4medicine.netlify.app/slides/images/rmd-nav.png&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;What do I save until later?&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Rendering with &lt;code&gt;render()&lt;/code&gt;. I think knitting in the RStudio IDE can get you very far- this I consider an intermediate to advanced concept that is confusing if introduced too early. I’ve never heard someone say &lt;em&gt;“Well there is this simple button, but how can I do the same thing from the command line?”&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/parameterized-reports.html&#34;&gt;Parameterized reports&lt;/a&gt;. I actually &lt;em&gt;do&lt;/em&gt; use parameters though! I’ll have at least one or two often in one of my Rmds, and mention them briefly in my wrap-up. I teach parameters explicitly with actual exercises when I have &amp;gt; 1 hour.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Multiple Rmd output formats. I tend to start with single output formats first. If I have &amp;gt; 1.5 hours and it matches my learning objectives, then I happily oblige- I love teaching &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/books.html&#34;&gt;bookdown&lt;/a&gt;, &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown/websites.html&#34;&gt;blogdown&lt;/a&gt;, and &lt;a href=&#34;https://rstudio.github.io/distill/website.html&#34;&gt;distill websites&lt;/a&gt;. But to start, I stay single.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Markdown. I skim markdown, and always provide a link to an interactive tutorial. This &lt;a href=&#34;https://commonmark.org/help/tutorial/&#34;&gt;one&lt;/a&gt; is my favorite. Teaching markdown can be…dry. I show some bits on the slides because I cannot count on everyone doing the interactive tutorial ahead of time, but I do not linger much.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/U7Uxq9Lyz02oStvUIE/giphy.gif&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;If you are curious to see some of the materials I’ve used to teach R Markdown, click on the &lt;code&gt;rmarkdown&lt;/code&gt; button just below this post! 🚀&lt;/p&gt;
+&lt;p&gt;But remember: there is no one way to learn R Markdown, and no one way to teach it either. I love seeing the creativity of the community when introducing the R Markdown family- so keep them coming!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/Q86zzvI3UUCADQCF0h/giphy.gif&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Writing technical content in Academic</title>
+      <link>/post/writing-technical-content/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/post/writing-technical-content/</guid>
+      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```python
+import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
+&lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;$$...$$&lt;/code&gt;, respectively.&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$\gamma_{n} = \frac{ 
+\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
+\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
+{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$\nabla F(\mathbf{x}_{n})$&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\\\&lt;/code&gt; math linebreak:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\\\
+1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\&lt;br&gt;
+1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$&lt;/p&gt;
+&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
+&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
+&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+graph TD
+A[Hard] --&amp;gt;|Text| B(Round)
+B --&amp;gt; C{Decision}
+C --&amp;gt;|One| D[Result 1]
+C --&amp;gt;|Two| E[Result 2]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD
+A[Hard] --&amp;gt;|Text| B(Round)
+B --&amp;gt; C{Decision}
+C --&amp;gt;|One| D[Result 1]
+C --&amp;gt;|Two| E[Result 2]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+sequenceDiagram
+Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&amp;gt;&amp;gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&amp;gt;&amp;gt;Alice: Great!
+John-&amp;gt;&amp;gt;Bob: How about you?
+Bob--&amp;gt;&amp;gt;John: Jolly good!
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;sequenceDiagram
+Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&amp;gt;&amp;gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&amp;gt;&amp;gt;Alice: Great!
+John-&amp;gt;&amp;gt;Bob: How about you?
+Bob--&amp;gt;&amp;gt;John: Jolly good!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+classDiagram
+Class01 &amp;lt;|-- AveryLongClass : Cool
+&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
+Class09 --&amp;gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&amp;gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+class Class10 {
+  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
+  int id
+  size()
+}
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;classDiagram
+Class01 &amp;lt;|-- AveryLongClass : Cool
+&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
+Class09 --&amp;gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&amp;gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+class Class10 {
+  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
+  int id
+  size()
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+stateDiagram
+[*] --&amp;gt; Still
+Still --&amp;gt; [*]
+Still --&amp;gt; Moving
+Moving --&amp;gt; Still
+Moving --&amp;gt; Crash
+Crash --&amp;gt; [*]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;stateDiagram
+[*] --&amp;gt; Still
+Still --&amp;gt; [*]
+Still --&amp;gt; Moving
+Moving --&amp;gt; Still
+Moving --&amp;gt; Crash
+Crash --&amp;gt; [*]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
+&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [x] Write math example
+- [x] Write diagram example
+- [ ] Do something else
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
+&lt;p&gt;Represent your data in tables:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;First Header&lt;/th&gt;
+&lt;th&gt;Second Header&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;asides&#34;&gt;Asides&lt;/h3&gt;
+&lt;p&gt;Academic supports a 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcode for asides&lt;/a&gt;, also referred to as &lt;em&gt;notices&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% alert note %}} ... {{% /alert %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% alert note %}}
+A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+{{% /alert %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;spoilers&#34;&gt;Spoilers&lt;/h3&gt;
+&lt;p&gt;Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; spoiler text=&amp;quot;Click to view the spoiler&amp;quot; &amp;gt;}}
+You found me!
+{{&amp;lt; /spoiler &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;spoiler &#34; &gt;
+  &lt;p&gt;
+    &lt;a class=&#34;btn btn-primary&#34; data-toggle=&#34;collapse&#34; href=&#34;#spoiler-1&#34; role=&#34;button&#34; aria-expanded=&#34;false&#34; aria-controls=&#34;spoiler-1&#34;&gt;
+      Click to view the spoiler
+    &lt;/a&gt;
+  &lt;/p&gt;
+  &lt;div class=&#34;collapse card &#34; id=&#34;spoiler-1&#34;&gt;
+    &lt;div class=&#34;card-body&#34;&gt;
+      You found me!
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;icons&#34;&gt;Icons&lt;/h3&gt;
+&lt;p&gt;Academic enables you to use a wide range of 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/#icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt; in addition to 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emojis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some examples using the &lt;code&gt;icon&lt;/code&gt; shortcode to render icons:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; icon name=&amp;quot;terminal&amp;quot; pack=&amp;quot;fas&amp;quot; &amp;gt;}} Terminal  
+{{&amp;lt; icon name=&amp;quot;python&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} Python  
+{{&amp;lt; icon name=&amp;quot;r-project&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} R
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-terminal  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Terminal&lt;br&gt;
+
+  &lt;i class=&#34;fab fa-python  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Python&lt;br&gt;
+
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
+&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>/post/jupyter/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/post/jupyter/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
+Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Welcome to Academic!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
+&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
+&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+jupyter lab index.ipynb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
+&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
+&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: My post&#39;s title
+date: 2019-09-01
+
+# Put any other Academic metadata here...
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Edit the metadata of your post, using the 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
+&lt;p&gt;To set a 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
+&lt;p&gt;For other tips, such as using math, see the guide on 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Academic: the website builder for Hugo</title>
+      <link>/post/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/post/getting-started/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or 
+&lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 
+&lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the &lt;strong&gt;documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 
+&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Ask a question&lt;/strong&gt; on the forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;👥 
+&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: 
+&lt;a href=&#34;https://twitter.com/source_themes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@source_themes&lt;/a&gt; 
+&lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; 
+&lt;a href=&#34;https://twitter.com/search?q=%23MadeWithAcademic&amp;amp;src=typd&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithAcademic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 
+&lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating?&lt;/strong&gt; View the 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Guide&lt;/a&gt; and 
+&lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;❤️ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
+&lt;ul&gt;
+&lt;li&gt;☕️ 
+&lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Donate a coffee&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💵 
+&lt;a href=&#34;https://www.patreon.com/cushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Become a backer on &lt;strong&gt;Patreon&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🖼️ 
+&lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Decorate your laptop or journal with an Academic &lt;strong&gt;sticker&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;👕 
+&lt;a href=&#34;https://academic.threadless.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wear the &lt;strong&gt;T-shirt&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;👩‍💻 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/contribute/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Contribute&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-academic-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; data-caption=&#34;Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34;&gt;
+
+
+  &lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable 
+&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and 
+&lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - 
+&lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, 
+&lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Academic comes with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can  choose their preferred mode - click the sun/moon icon in the top right of the 
+&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/customization/#custom-theme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;customizable&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34;&gt;Academic Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34;&gt;Academic Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;
+&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;
+&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
 &lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Then &lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Then 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34;&gt;Github&lt;/a&gt; to help keep track of &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on 
+&lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt; to help keep track of 
+&lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+&lt;p&gt;Copyright 2016-present 
+&lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the 
+&lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>
+
+
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     

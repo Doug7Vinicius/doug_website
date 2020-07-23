@@ -3,173 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/pt/courses/example/example1/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/courses/example/example1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/courses/example/example1/"
-                />
-  </url>
-  
-  <url>
-    <loc>/pt/courses/example/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/courses/example/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/courses/example/"
-                />
-  </url>
-  
-  <url>
-    <loc>/pt/courses/example/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/courses/example/example2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/courses/example/example2/"
-                />
-  </url>
-  
-  <url>
-    <loc>/pt/authors/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/authors/"
-                />
-  </url>
-  
-  <url>
-    <loc>/pt/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/"
-                />
-  </url>
-  
-  <url>
-    <loc>/pt/authors/douglas-vinicius/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/authors/douglas-vinicius/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/authors/douglas-vinicius/"
-                />
-  </url>
-  
-  <url>
-    <loc>/pt/tags/dplyr/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/dplyr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/tags/dplyr/"
-                />
-  </url>
-  
-  <url>
-    <loc>/pt/authors/elisangela-c.-biazatti/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/authors/elisangela-c.-biazatti/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/authors/elisangela-c.-biazatti/"
-                />
-  </url>
-  
-  <url>
-    <loc>/pt/talk/dplyr/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/talk/dplyr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/talk/dplyr/"
-                />
-  </url>
-  
-  <url>
-    <loc>/pt/authors/jossivana-macedo/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/authors/jossivana-macedo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/authors/jossivana-macedo/"
-                />
-  </url>
-  
-  <url>
-    <loc>/pt/tags/r/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/r/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/tags/r/"
-                />
-  </url>
-  
-  <url>
     <loc>/pt/talk/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-31T09:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -183,38 +18,8 @@
   </url>
   
   <url>
-    <loc>/pt/tags/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>/pt/tags/tidyverse/</loc>
-    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/tidyverse/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/tags/tidyverse/"
-                />
-  </url>
-  
-  <url>
     <loc>/pt/categories/</loc>
-    <lastmod>2019-09-20T21:14:14-05:00</lastmod>
+    <lastmod>2020-03-31T09:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -228,83 +33,58 @@
   </url>
   
   <url>
-    <loc>/pt/tags/logic/</loc>
-    <lastmod>2019-09-20T21:14:14-05:00</lastmod>
+    <loc>/pt/</loc>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/logic/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/tags/logic/"
+                href="/pt/"
                 />
   </url>
   
   <url>
-    <loc>/pt/categories/logic/</loc>
-    <lastmod>2019-09-20T21:14:14-05:00</lastmod>
+    <loc>/pt/talk/2020-rmedicine-tidyml/</loc>
+    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/machine-learning/</loc>
+    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/</loc>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/logic/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/categories/logic/"
+                href="/pt/tags/"
                 />
   </url>
   
   <url>
-    <loc>/pt/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2019-09-20T21:14:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/post/2015-07-23-r-rmarkdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/post/2015-07-23-r-rmarkdown/"
-                />
+    <loc>/pt/tags/tidymodels/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/pt/categories/math/</loc>
-    <lastmod>2019-09-20T21:14:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/math/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/categories/math/"
-                />
-  </url>
-  
-  <url>
-    <loc>/pt/tags/math/</loc>
-    <lastmod>2019-09-20T21:14:14-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/math/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/tags/math/"
-                />
+    <loc>/pt/categories/workshop/</loc>
+    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
   </url>
   
   <url>
     <loc>/pt/post/</loc>
-    <lastmod>2019-09-20T21:14:14-05:00</lastmod>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -318,231 +98,463 @@
   </url>
   
   <url>
-    <loc>/pt/tags/demo/</loc>
-    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <loc>/pt/post/2020-06-02-tidymodels-virtually/</loc>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/demo/"
+                href="/post/2020-06-02-tidymodels-virtually/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/tags/demo/"
+                href="/pt/post/2020-06-02-tidymodels-virtually/"
                 />
   </url>
   
   <url>
-    <loc>/pt/project/number-theory/</loc>
-    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <loc>/pt/tags/rmarkdown/</loc>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/project/number-theory/"
+                href="/tags/rmarkdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/project/number-theory/"
+                href="/pt/tags/rmarkdown/"
                 />
   </url>
   
   <url>
-    <loc>/pt/project/</loc>
-    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <loc>/pt/post/2020-05-28-how-i-teach-r-markdown/</loc>
+    <lastmod>2020-05-28T20:45:57-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/project/"
+                href="/post/2020-05-28-how-i-teach-r-markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/project/"
+                href="/pt/post/2020-05-28-how-i-teach-r-markdown/"
                 />
   </url>
   
   <url>
-    <loc>/pt/tags/regression/</loc>
-    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <loc>/pt/authors/alison/</loc>
+    <lastmod>2020-03-31T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/</loc>
+    <lastmod>2020-03-31T09:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/regression/"
+                href="/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/tags/regression/"
+                href="/pt/authors/"
                 />
   </url>
   
   <url>
-    <loc>/pt/project/regression-project/</loc>
-    <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <loc>/pt/authors/desiree-de-leon/</loc>
+    <lastmod>2020-03-31T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2020-sharing-short-notice/</loc>
+    <lastmod>2020-03-31T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/categories/talk/</loc>
+    <lastmod>2020-03-31T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/categories/machine-learning/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/post/2020-02-27-better-tidymodels/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/categories/tidymodels/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2020-rsc-tidyml/</loc>
+    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/post/2019-12-23-learning-to-teach-machines-to-learn/</loc>
+    <lastmod>2019-12-23T08:51:41-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/data-visualization/</loc>
+    <lastmod>2019-10-04T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/ggplot2/</loc>
+    <lastmod>2019-10-04T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/oz2019/</loc>
+    <lastmod>2019-10-04T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2019-rladies-sydney/</loc>
+    <lastmod>2019-10-04T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/tidy-data/</loc>
+    <lastmod>2019-10-04T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/xaringan/</loc>
+    <lastmod>2019-10-04T18:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/categories/keynote/</loc>
+    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2019-ysc-keynote/</loc>
+    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2019-ysc-workshop/</loc>
+    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2019-rladies-melbourne/</loc>
+    <lastmod>2019-09-26T18:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2019-rmed-rmd4medicine/</loc>
+    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/workshop/</loc>
+    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/talk/</loc>
+    <lastmod>2019-06-18T22:43:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2019-jsm-talk-ds/</loc>
+    <lastmod>2019-06-18T22:43:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/blogdown/</loc>
+    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/categories/blogdown/</loc>
+    <lastmod>2019-06-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2019-summer-of-blogdown-04/</loc>
+    <lastmod>2019-06-13T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2019-summer-of-blogdown-03/</loc>
+    <lastmod>2019-06-12T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2019-summer-of-blogdown-02/</loc>
+    <lastmod>2019-06-11T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2019-summer-of-blogdown-01/</loc>
+    <lastmod>2019-06-10T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2019-sdss-blogdown/</loc>
+    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/post/2019-03-04-hugo-troubleshooting/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/categories/hugo/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/post/2019-02-21-hugo-page-bundles/</loc>
+    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/post/2019-02-19-hugo-netlify-toml/</loc>
+    <lastmod>2019-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/hugo/</loc>
+    <lastmod>2019-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/netlify/</loc>
+    <lastmod>2019-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/categories/netlify/</loc>
+    <lastmod>2019-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/post/2019-02-19-hugo-archetypes/</loc>
+    <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2019-rsc-blogdown/</loc>
+    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/bookdown/</loc>
+    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2019-rsc-bookdown/</loc>
+    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/flexdashboard/</loc>
+    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2019-rsc-flexdashboard/</loc>
+    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2019-rsc-xaringan/</loc>
+    <lastmod>2019-06-16T02:20:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/projects/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/project/regression-project/"
+                href="/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/project/regression-project/"
+                href="/pt/projects/"
                 />
   </url>
   
   <url>
-    <loc>/pt/post/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+    <loc>/pt/about/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/post/writing-technical-content/"
+                href="/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/post/writing-technical-content/"
+                href="/pt/about/"
                 />
   </url>
   
   <url>
-    <loc>/pt/courses/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+    <loc>/pt/resume/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/courses/"
+                href="/resume/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/courses/"
+                href="/pt/resume/"
                 />
   </url>
   
   <url>
-    <loc>/pt/authors/admin/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+    <loc>/pt/talks/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/authors/admin/"
+                href="/talks/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/authors/admin/"
+                href="/pt/talks/"
                 />
   </url>
   
   <url>
-    <loc>/pt/post/jupyter/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <loc>/pt/talk/2018-uo-plotoff/</loc>
+    <lastmod>2018-10-29T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/categories/data-import/</loc>
+    <lastmod>2018-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/post/2018-02-23-read-multiple-header-rows/</loc>
+    <lastmod>2018-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/categories/readr/</loc>
+    <lastmod>2018-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/categories/readxl/</loc>
+    <lastmod>2018-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2018-cascadia-bigmagic/</loc>
+    <lastmod>2018-06-02T08:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/r/</loc>
+    <lastmod>2018-06-02T08:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/post/jupyter/"
+                href="/tags/r/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="/pt/post/jupyter/"
+                href="/pt/tags/r/"
                 />
   </url>
   
   <url>
-    <loc>/pt/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/privacy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/privacy/"
-                />
+    <loc>/pt/talk/2018-ohsu-sad-plot-better/</loc>
+    <lastmod>2018-04-06T16:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/pt/terms/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/terms/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/terms/"
-                />
+    <loc>/pt/publication_types/2/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/pt/tags/academic/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/academic/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/tags/academic/"
-                />
+    <loc>/pt/authors/beth-hoover-langhorst/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/pt/post/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/post/getting-started/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/post/getting-started/"
-                />
+    <loc>/pt/authors/damien-fair/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/pt/categories/demo/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/demo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/categories/demo/"
-                />
+    <loc>/pt/authors/damion-demeter/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/pt/project/survival-analysis/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/project/survival-analysis/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="/pt/project/survival-analysis/"
-                />
+    <loc>/pt/authors/eric-feczko/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/eric-fombonne/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/jan-van-santen/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/joel-nigg/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/julia-grieser-painter/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/lourdes-irwin/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/michaela-cordova/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/nadir-balba/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/oscar-miranda-dominguez/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/pt/publication_types/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -557,6 +569,7 @@
   
   <url>
     <loc>/pt/publication/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -567,6 +580,341 @@
                 hreflang="pt"
                 href="/pt/publication/"
                 />
+  </url>
+  
+  <url>
+    <loc>/pt/authors/sarah-karalunas/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/publication/2017-subtyping/</loc>
+    <lastmod>2017-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/post/2017-12-18-r-ladies-presentation-ninja/</loc>
+    <lastmod>2017-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/categories/rladies/</loc>
+    <lastmod>2017-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/categories/xaringan/</loc>
+    <lastmod>2017-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/publication_types/5/</loc>
+    <lastmod>2017-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/amber-thomas/</loc>
+    <lastmod>2017-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/publication/2017-blogdown/</loc>
+    <lastmod>2017-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/yihui-xie/</loc>
+    <lastmod>2017-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2017-ohsu-labhub/</loc>
+    <lastmod>2017-12-08T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/research/</loc>
+    <lastmod>2017-12-08T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/robin-champieux/</loc>
+    <lastmod>2017-12-08T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/science/</loc>
+    <lastmod>2017-12-08T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2017-pdxr-blogdown/</loc>
+    <lastmod>2017-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/post/2017-06-12-up-and-running-with-blogdown/</loc>
+    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/geza-kiss/</loc>
+    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/heather-macfarlane/</loc>
+    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/katina-papadakis/</loc>
+    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/kyle-gorman/</loc>
+    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/publication/2017-mazes-asd-sli/</loc>
+    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/rosemary-ingham/</loc>
+    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/talk/2016-ohsu-dataviz/</loc>
+    <lastmod>2016-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/tags/dataviz/</loc>
+    <lastmod>2016-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/julianne-myers/</loc>
+    <lastmod>2016-06-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/project/advanced-r-markdown/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/pt/project/"
+                />
+  </url>
+  
+  <url>
+    <loc>/pt/publication_types/6/</loc>
+    <lastmod>2016-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/publication/2016-primer-on-asd/</loc>
+    <lastmod>2016-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/katharine-zuckerman/</loc>
+    <lastmod>2016-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/jan-p.-h.-van-santen/</loc>
+    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/lindsay-olson/</loc>
+    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/peter-a.-heeman/</loc>
+    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/rebecca-lunsford/</loc>
+    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/publication/2016-uh-and-um-asd-sli/</loc>
+    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/katharine-e.-zuckerman/</loc>
+    <lastmod>2015-09-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/publication/2015-obesity-in-asd-multisite/</loc>
+    <lastmod>2015-09-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/publication/2015-memory-in-li-asd/</loc>
+    <lastmod>2015-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/publication/2015-translational/</loc>
+    <lastmod>2015-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/publication/2014-aggression-in-asd/</loc>
+    <lastmod>2014-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/arlene-d.-hagen/</loc>
+    <lastmod>2014-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/daniel-j.-kriz/</loc>
+    <lastmod>2014-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/katherine-e.-zuckerman/</loc>
+    <lastmod>2014-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/susanne-w.-duvall/</loc>
+    <lastmod>2014-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/publication/2014-handbook/</loc>
+    <lastmod>2014-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/kimberly-guion/</loc>
+    <lastmod>2014-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/lisa-voltolina/</loc>
+    <lastmod>2014-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/publication/2014-obesity-in-asd-oregon/</loc>
+    <lastmod>2014-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/publication/2014-asd-epidemiology-in-practice/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/publication/2013-repetitive-speech-in-asd-sli/</loc>
+    <lastmod>2013-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/richard-w.-sproat/</loc>
+    <lastmod>2013-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/bridget-m.-gaertner/</loc>
+    <lastmod>2011-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/carol-lynn-martin/</loc>
+    <lastmod>2011-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/cindy-f.-miller/</loc>
+    <lastmod>2011-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/dawn-e.-england/</loc>
+    <lastmod>2011-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/diane-n.-ruble/</loc>
+    <lastmod>2011-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/kristina-m.-zosuls/</loc>
+    <lastmod>2011-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/publication/2011-gender-attitudes/</loc>
+    <lastmod>2011-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/publication/2007-rja-in-sibs/</loc>
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/paul-j.-yoder/</loc>
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/tedra-a.-walden/</loc>
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/wendy-l.-stone/</loc>
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/anderson-d.-smith/</loc>
+    <lastmod>2004-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/chuck-l.-robertson/</loc>
+    <lastmod>2004-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/authors/david-p.-mccabe/</loc>
+    <lastmod>2004-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pt/publication/2004-false-memories/</loc>
+    <lastmod>2004-12-01T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

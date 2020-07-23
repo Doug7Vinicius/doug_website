@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="pt-bz">
+<!DOCTYPE html><html lang="pt-bz" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.4.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -21,7 +20,7 @@
   
   
 
-  <meta name="author" content="Douglas Vinícius">
+  
 
   
   
@@ -39,11 +38,12 @@
 
 
   
-
-  
   
   
   <meta name="theme-color" content="rgb(0, 136, 204)">
+  
+
+  
   
 
   
@@ -52,8 +52,8 @@
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
     
@@ -61,44 +61,199 @@
       
     
     
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/tomorrow.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/tomorrow.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
-        
+      
+
+      
+    
+      
+
+      
+      
+
       
     
 
-    
-
-    
-
-  
-
-  
-  
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lora:400,700|Roboto:400,700&display=swap">
   
 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.f9ea692fa374a1293c54a14194078902.css">
-
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono%7CLora:400,700%7CRoboto:400,700&display=swap">
   
 
   
   
   
+  
+  <link rel="stylesheet" href="/css/academic.css">
 
   
-  <link rel="alternate" href="/pt/authors/index.xml" type="application/rss+xml" title="Chinese website title...">
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99209585-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-99209585-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
-  <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon-32.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  
+  
+
+  
+  <link rel="alternate" href="/pt/authors/index.xml" type="application/rss+xml" title="Douglas Vinícius">
+  
+
+  <link rel="manifest" href="/pt/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hue95950bcb6781434fc94b614d025d7a7_12723_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hue95950bcb6781434fc94b614d025d7a7_12723_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="/pt/authors/">
 
@@ -106,34 +261,38 @@
   
   
   
+  
+  
+  
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
-  <meta property="twitter:site" content="@Douglas Vinícius">
-  <meta property="twitter:creator" content="@Douglas Vinícius">
-  
-  <meta property="og:site_name" content="Chinese website title...">
+  <meta property="og:site_name" content="Douglas Vinícius">
   <meta property="og:url" content="/pt/authors/">
-  <meta property="og:title" content="Authors | Chinese website title...">
-  <meta property="og:description" content="Site descrito em português-brasil..."><meta property="og:image" content="/img/normal_1.png">
-  <meta property="twitter:image" content="/img/normal_1.png"><meta property="og:locale" content="pt-bz">
+  <meta property="og:title" content="Authors | Douglas Vinícius">
+  <meta property="og:description" content="Site descrito em português-brasil..."><meta property="og:image" content="/img/sombrero.jpg">
+  <meta property="twitter:image" content="/img/sombrero.jpg"><meta property="og:locale" content="pt-bz">
   
-    <meta property="og:updated_time" content="2019-10-22T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2020-03-31T09:00:00&#43;00:00">
   
-
-  
-
 
   
 
 
 
 
+  
 
-  <title>Authors | Chinese website title...</title>
+
+  
+
+
+
+
+
+  <title>Authors | Douglas Vinícius</title>
 
 </head>
 
@@ -154,7 +313,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Pesquisar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -171,11 +331,11 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
   <div class="container">
 
     
-      <a class="navbar-brand" href="/pt"><img src="/img/normal_1.png" alt="Chinese website title..."></a>
+      <a class="navbar-brand" href="/pt">Douglas Vinícius</a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Alterar navegação">
@@ -205,16 +365,97 @@
         
         
         
-          
-          
-          
-            
-          
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pt/about"><span>Sobre</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
           
         
 
+        
+        
+        
+        
+        
+        
+
         <li class="nav-item">
-          <a class="nav-link " href="/pt/#about"><span>Página Inicial</span></a>
+          <a class="nav-link " href="/pt/post"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pt/talks"><span>Palestras</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pt/projects"><span>Projetos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pt/resume"><span>CV</span></a>
         </li>
 
         
@@ -225,11 +466,16 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
         
         <li class="nav-item dropdown">
           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-            <i class="fas fa-globe mr-1" aria-hidden="true"></i><span>Português</span>
+            <i class="fas fa-globe" aria-hidden="true"></i>
+            <span>Português</span>
           </a>
           <ul class="dropdown-menu">
             
@@ -265,6 +511,8 @@
 
 
 
+
+
   
 
   
@@ -273,7 +521,7 @@
     
   
 <div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Authors</h1>
+  <h1>Authors</h1>
 
   
 
@@ -289,20 +537,47 @@
     
     
       
-      <li><a href="/pt/authors/douglas-vinicius/">Douglas Vinícius</a></li>
+      <li><a href="/pt/authors/alison/"></a></li>
     
       
-      <li><a href="/pt/authors/elisangela-c.-biazatti/">Elisângela C. Biazatti</a></li>
+      <li><a href="/pt/authors/desiree-de-leon/">Desirée De Leon</a></li>
     
       
-      <li><a href="/pt/authors/jossivana-macedo/">Jossivana Macedo</a></li>
+      <li><a href="/pt/authors/beth-hoover-langhorst/">Beth Hoover Langhorst</a></li>
     
       
-      <li><a href="/pt/authors/admin/">Douglas Vinícius</a></li>
+      <li><a href="/pt/authors/damien-fair/">Damien Fair</a></li>
+    
+      
+      <li><a href="/pt/authors/damion-demeter/">Damion Demeter</a></li>
+    
+      
+      <li><a href="/pt/authors/eric-feczko/">Eric Feczko</a></li>
+    
+      
+      <li><a href="/pt/authors/eric-fombonne/">Eric Fombonne</a></li>
+    
+      
+      <li><a href="/pt/authors/jan-van-santen/">Jan van Santen</a></li>
+    
+      
+      <li><a href="/pt/authors/joel-nigg/">Joel Nigg</a></li>
+    
+      
+      <li><a href="/pt/authors/julia-grieser-painter/">Julia Grieser Painter</a></li>
     
   </ul>
 
   
+<nav>
+  <ul class="pagination justify-content-center">
+    
+    
+    <li class="page-item"><a class="page-link" href="/pt/authors/page/2/">&raquo;</a></li>
+    
+  </ul>
+</nav>
+
 
 </div>
 
@@ -314,18 +589,18 @@
     
     
     
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
 
       
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
@@ -333,6 +608,10 @@
       
     
 
+    
+    
+
+    
     
     
 
@@ -342,21 +621,51 @@
     
 
     
+    
+    <script>
+      const search_index_filename = "/pt/index.json";
+      const i18n = {
+        'placeholder': "Pesquisar...",
+        'results': "Resultados encontrados",
+        'no_results': "Sem resultados"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projetos",
+        'publication' : "Publicações",
+        'talk' : "Palestras"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
-
-    
-    
-
-    
-    
-
-    
-    
-
     
     
     
@@ -365,11 +674,12 @@
     
     
     
+      
     
     
     
     
-    <script src="/js/academic.min.dc856155b640fa1cd8bd8b7b068fe79c.js"></script>
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
 
     
 
@@ -378,26 +688,16 @@
 
 
 
+  
   
   <div class="container">
     <footer class="site-footer">
   
-  <p class="powered-by">
-    
-      <a href="/pt/privacy/"></a>
-    
-    
-       &middot; 
-      <a href="/pt/terms/"></a>
-        
-  </p>
-  
 
   <p class="powered-by">
-    
+    © Douglas Vinícius 2020 &middot; 
 
-    © 2019 Douglas Vinícius <a href="https://github.com/Doug7Vinicius/douglas_website" target="_blank" rel="noopener"><i class="fas fa-code-branch"></i></a>
-    Made with <a href="https://www.r-project.org/" target="_blank" rel="noopener"><i class="fab fa-r-project"></i> </a><a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown</a> package, and the
+    Made with <i class="far fa-heart" style="color: #06805E"></i>, <a href="https://github.com/rbind/apreshill" target="_blank" rel="noopener"><i class="fas fa-code-branch"></i></a>, the <a href="https://cran.r-project.org/" target="_blank" rel="noopener"><i class="fab fa-r-project"></i> </a><a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown</a> package, and the 
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
     <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
 

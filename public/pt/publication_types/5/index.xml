@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>5 | Douglas Vinícius</title>
+    <link>/pt/publication_types/5/</link>
+      <atom:link href="/pt/publication_types/5/index.xml" rel="self" type="application/rss+xml" />
+    <description>5</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pt-bz</language><copyright>© Douglas Vinícius 2020</copyright><lastBuildDate>Thu, 14 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/sombrero.jpg</url>
+      <title>5</title>
+      <link>/pt/publication_types/5/</link>
+    </image>
+    
+    <item>
+      <title>blogdown: Creating Websites with R Markdown</title>
+      <link>/pt/publication/2017-blogdown/</link>
+      <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>/pt/publication/2017-blogdown/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

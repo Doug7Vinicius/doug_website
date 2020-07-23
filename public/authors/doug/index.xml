@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Douglas Vinícius</title>
+    <link>/authors/doug/</link>
+      <atom:link href="/authors/doug/index.xml" rel="self" type="application/rss+xml" />
+    <description>Douglas Vinícius</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Douglas Vinícius 2020</copyright>
+    <image>
+      <url>/img/sombrero.jpg</url>
+      <title>Douglas Vinícius</title>
+      <link>/authors/doug/</link>
+    </image>
+    
+  </channel>
+</rss>

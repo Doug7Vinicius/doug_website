@@ -5,26 +5,18 @@
     <link>/authors/elisangela-c.-biazatti/</link>
       <atom:link href="/authors/elisangela-c.-biazatti/index.xml" rel="self" type="application/rss+xml" />
     <description>Elisângela C. Biazatti</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Douglas Vinícius 2020</copyright><lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/normal_1.png</url>
+      <url>/img/sombrero.jpg</url>
       <title>Elisângela C. Biazatti</title>
       <link>/authors/elisangela-c.-biazatti/</link>
     </image>
     
     <item>
-      <title>Introdução ao Pacote dplyr</title>
-      <link>/pt/talk/dplyr/</link>
+      <title>Introduction to the dplyr Package</title>
+      <link>/talk/2019-dplyr/</link>
       <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/pt/talk/dplyr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introdução ao Pacote dplyr</title>
-      <link>/talk/dplyr/</link>
-      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/dplyr/</guid>
+      <guid>/talk/2019-dplyr/</guid>
       <description></description>
     </item>
     

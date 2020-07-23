@@ -5,26 +5,27 @@
     <link>/tags/r/</link>
       <atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Douglas Vinícius 2020</copyright><lastBuildDate>Mon, 20 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/normal_1.png</url>
+      <url>/img/sombrero.jpg</url>
       <title>R</title>
       <link>/tags/r/</link>
     </image>
     
     <item>
-      <title>Introdução ao Pacote dplyr</title>
-      <link>/pt/talk/dplyr/</link>
-      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/pt/talk/dplyr/</guid>
-      <description></description>
+      <title>Survival Analysis</title>
+      <link>/project/survival/</link>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/project/survival/</guid>
+      <description>&lt;p&gt;in progess&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Introdução ao Pacote dplyr</title>
-      <link>/talk/dplyr/</link>
+      <title>Introduction to the dplyr Package</title>
+      <link>/talk/2019-dplyr/</link>
       <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/dplyr/</guid>
+      <guid>/talk/2019-dplyr/</guid>
       <description></description>
     </item>
     
